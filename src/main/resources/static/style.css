@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+}
+
+p {
+  font-family: calibri;
+  font-size: 40px;
+}
+
+#right_div {
+    height:100%;
+  	width:50%;
+  	display:inline-block;
+  	float:right;
+}
+
+#left_div {
+    height:100%;
+  	width:50%;
+  	display:inline-block;
+  	float:left;
+
+}
