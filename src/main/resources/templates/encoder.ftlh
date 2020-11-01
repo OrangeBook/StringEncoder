@@ -14,7 +14,7 @@
     <span id="right_div">
       <p>encoded text</p><br>
       <form action="http://localhost:8080/encoder/action" method="POST">
-        <input type="text" id="encoded_text" name="encoded_text"><br>
+        <input type="text" id="encoded_text" name="encoded_text" value="${encoded_text}"><br>
         <input type="submit" value="decode">
       </form>
     </span>
